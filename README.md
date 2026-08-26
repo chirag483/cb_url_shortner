@@ -1,4 +1,4 @@
-# PostgreSQL-only URL Shortener
+# URL Shortener
 
 A small, containerized URL shortener built with **FastAPI** + **asyncpg**.
 There is **no Redis, Memcached, or any other cache service** — fast
