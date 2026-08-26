@@ -4,8 +4,10 @@
 name: Python url_shortner
 
 on:
-  push:
-    branches: [ "development" ]
+  workflow_run:
+    workflows: ["Pylint"]
+    types:
+      - completed
 
 permissions:
   contents: read
