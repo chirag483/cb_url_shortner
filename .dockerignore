@@ -8,4 +8,5 @@ venv/
 *.egg-info
 .pytest_cache
 README.md
-docker-compose.yaml
+docker-compose.yml
+.env*
